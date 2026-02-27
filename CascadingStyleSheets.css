@@ -1,0 +1,53 @@
+:root {
+    --azul: #1A73E9;
+    --azul_claro:#4286F5;
+    --vermelho: #EA4235;
+    --amarelo: #F7BE03;
+    --verde:#34A853;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--azul_claro);
+}
+header {
+    background-color: var(--azul);
+    color: white;
+    margin: auto auto 10px auto;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-color: var(--amarelo);
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+}
+input{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+button {
+    display: flex;
+    margin: 5px auto 5px auto;
+    background-color: #1A73E9;
+    border-radius: 10px;
+    padding: 5px;
+}
+button:hover{
+    background-color: #EA4235;
+}
+div{
+    background-color: var(--verde);
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
